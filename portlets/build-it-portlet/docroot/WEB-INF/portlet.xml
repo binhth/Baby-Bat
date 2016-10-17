@@ -7,12 +7,17 @@
 		<portlet-class>com.org.layout.BuildIt</portlet-class>
 		<init-param>
 			<name>view-template</name>
-			<value>/layout.jsp</value>
+			<value>/html/layout.jsp</value>
+		</init-param>
+		<init-param>
+			<name>template-path</name>
+			<value>/html/</value>
 		</init-param>
 		<expiration-cache>0</expiration-cache>
 		<supports>
 			<mime-type>text/html</mime-type>
 		</supports>
+		<resource-bundle>content.Language_bat</resource-bundle>
 		<portlet-info>
 			<title>Build It</title>
 			<short-title>Build It</short-title>

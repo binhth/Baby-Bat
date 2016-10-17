@@ -1,0 +1,20 @@
+.aui .navbar-fixed-top, .aui .navbar-fixed-bottom {
+    height: 50px !important;
+}
+.aui .navbar .nav > li > a{
+	padding: 15px !important;
+	color: lightgray;
+}
+.opencps-theme.ux #main-content{
+	width: 100% !important;
+}
+.aui .nav-list{
+	padding: 0 !important;
+}
+* {
+    box-sizing: border-box !important;
+}
+.aui .navbar .nav > li > a {
+    text-shadow: 0 0px 0 #f9f9f9 !important;
+}
+
